@@ -1,0 +1,36 @@
+{{! Post page; this file renders a single post and loads all the content}}
+{{> head}}
+{{> navbar}}
+<main>
+
+   {{! injects code via a Custom HTML tool - as defined in the config.json file in the "renderer" section }}
+   {{#if @customHTML.beforePost}}
+      <div id="custom-html-before-post">
+         {{{@customHTML.beforePost}}}
+      </div>
+   {{/if}}
+   {{! /injects code via a Custom HTML tool }}
+
+   {{! indicates the post's context}}
+   {{#post}}
+      <article>
+         {{! post body }}
+         <div id="post-entry">
+            {{{text}}}
+         </div>
+         {{! /post body }}
+
+   {{/post}}
+   {{! /indicates the post's context}}
+
+   {{! code injection by a Custom HTML tool - defined in config.json file in the renderer section}}
+   {{#if @customHTML.afterPost}}
+      <div id="custom-html-after-post">
+         {{{@customHTML.afterPost}}}
+      </div>
+   {{/if}}
+   {{! injects code via a Custom HTML tool }}
+
+</main>
+
+{{> footer}}
