@@ -1,13 +1,16 @@
-# Publii Blank Theme
+# Publii Static Site Theme
 
-Version: 1.3.0.0
+Version: 0.0.0.0
 
-The Blank is a clean and minimalistic Publii boilerplate theme that is perfect for users who want to start the adventure of creating Publi themes, having everything you need to create your own site.
+This theme was forked from the [Blank Theme](https://github.com/GetPublii/theme-Blank).
 
-**Download:** [blank.zip](https://cdn.getpublii.com/themes/blank.zip)
+The Static Site theme aims to create a theme that makes it easier to navigate
+Publii if your goal is to create a simple static site unrelated to blog posts.
+A lot of Publii's features and options are blog post related, which makes it a
+bit hard to navigate when all you want to do is create a handful of static pages
+and just link them to each other.  This theme makes the above use case easier.
 
-
-### Getting Started with Blank theme
+### Getting Started with Static Site Theme themesi
 
 1. Download the blank.zip theme package
 2. Open Publii and navigate to the Themes by clicking on the three dots in the top-right of the Publii interface to open the submenu, then clicking the Themes option
@@ -16,14 +19,7 @@ The Blank is a clean and minimalistic Publii boilerplate theme that is perfect f
 
 ### Author:
 
-Bob Mitro TidyCustoms ([@tidycustoms](http://twitter.com/tidycustoms) - [https://tidycustoms.net/](https://tidycustoms.net/))
-
-
-### Documentation
-
-Dev documentation is available at [https://getpublii.com/dev/](https://getpublii.com/dev/)
-
-
+Manoj Dayaram ([@mdayaram](https://github.com/mdayaram))
 
 ### License
 
